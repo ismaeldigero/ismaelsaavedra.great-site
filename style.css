@@ -357,3 +357,49 @@ footer{
     height: 100%;
     background:#00d2ff;
 }
+
+
+@media (max-width: 550px){
+    .container{
+        display: inline-block;
+        margin: auto;
+        align-items: center;
+        max-width: 1300px;
+    }
+
+    .gold{
+        height: 400px;
+        width: 400px;
+        object-fit: cover;
+    }
+    .left-side {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding-top: 2rem;
+    }
+
+    section {
+        height: 100vh;
+        padding: 3rem;
+        display: contents;
+    }
+
+    .card {
+        /* background-color: #0152fc; */
+        width: 89%;
+        border-radius: 5px;
+        padding: 1rem;
+        cursor: pointer;
+        transition: .8s ease;
+    }
+
+}
