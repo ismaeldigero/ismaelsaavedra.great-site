@@ -359,12 +359,12 @@ footer{
 }
 
 
-@media (max-width: 550px){
+@media (max-width: 450px){
     .container{
         display: inline-block;
         margin: auto;
         align-items: center;
-        max-width: 1300px;
+
     }
 
     .gold{
