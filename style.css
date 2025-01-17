@@ -58,6 +58,7 @@ a{
     font-size: 14px;
     display: block;
     transition: .3s ease;
+    margin-bottom: 10%;
 }
 
 a:hover{
@@ -400,6 +401,11 @@ footer{
         padding: 1rem;
         cursor: pointer;
         transition: .8s ease;
+    }
+
+    .starCont {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
 }
