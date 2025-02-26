@@ -3,11 +3,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: #e3e3e4;
 }
 
 @font-face {
     font-family: "Poppins", sans-serif;
-    color: #1f1c2c;
+    color: #e3e3e4;
 }
 
 h1{
@@ -15,7 +16,7 @@ h1{
 }
 
 body{
-    background-color: #dadada;
+    background-color: #37383b;
     color: rgb(184, 182, 182);
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
@@ -96,7 +97,7 @@ section{
 
 .title{
     line-height: 1.2;
-    color: #2b2b2b;
+    color: #e3e3e4;
 }
 .title h1{
     font-size: 40px;
@@ -112,7 +113,7 @@ p{
     font-size: 14px;
     font-weight: 600;
     max-width: 400px;
-    color: #1f1c2c;
+    color: #e3e3e4;
 }
 
 .p{
